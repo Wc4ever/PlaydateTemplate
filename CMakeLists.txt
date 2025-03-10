@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
 set(CMAKE_C_STANDARD 11)
-set(PLAYDATE_SDK_PATH ../../PlaydateSDK CACHE PATH "Path to PlaydateSDK")
 set(ENVSDK ${PLAYDATE_SDK_PATH})
 if (NOT ${ENVSDK} STREQUAL "")
 	# Convert path from Windows
@@ -27,7 +26,7 @@ set(CMAKE_XCODE_GENERATE_SCHEME TRUE)
 set(PLAYDATE_GAME_NAME TemplateGame CACHE STRING "Game name")
 set(PLAYDATE_GAME_DEVICE TemplateGame_DEVICE CACHE STRING "Game name for device")
 
-set(VSCODE_ACTIONS OFF CACHE BOOL "VS Code spevific actions")
+set(VSCODE_ACTIONS OFF CACHE BOOL "VS Code specific actions")
 
 if (VSCODE_ACTIONS)
 	message("Run actions for VS Code")
