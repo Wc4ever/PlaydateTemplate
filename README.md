@@ -2,7 +2,7 @@
 # Description
 Ready to go VSCode friendly project for Playdate. Project made for development in C programming language but suitable for lua also.
 
-Playdate does not support CMake officially but it is nice to have in VSCode. So CMake works only for building emulator build via Visual Studio build tools.
+To build and run on Playdate emulator having CMake and Visual Studio build tools is enough.
 If you want to build and deploy on device you have to install [ninja](https://ninja-build.org/) build system and [arm compiler](https://developer.arm.com/downloads/-/gnu-rm).
 ## Installation
 - Install [Playdate SDK](https://play.date/dev/)
