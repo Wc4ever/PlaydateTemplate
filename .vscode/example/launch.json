@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Simulator Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${config:PLAYDATE_SDK_PATH}/bin/PlaydateSimulator.exe",
+            "args": ["${workspaceFolder}/${config:PLAYDATE_GAME_NAME}.pdx"],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
