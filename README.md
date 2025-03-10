@@ -7,7 +7,7 @@ If you want to build and deploy on device you have to install [ninja](https://ni
 ## Installation
 - Install [Playdate SDK](https://play.date/dev/)
 - Just clone repo and move *.json files from .vscode/examples to .vscode/examples/..
-- In settings.json change variable PLAYDATE_SDK_PATH.
+- In CMakePresets.json change variables PLAYDATE_SDK_PATH.
 ## Usage
 ### To run on emulator:
 - configure and build Win_Dev_Visual_Studio preset 
