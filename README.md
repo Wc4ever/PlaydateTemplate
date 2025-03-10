@@ -14,4 +14,4 @@ If you want to build and deploy on device you have to install [ninja](https://ni
 - hit F5 to run debug build
 ### To run on device:
 - configure and build Arm_Dev_Ninja preset
-- run task "Run on Playdate" with device conntected.
+- run task "Run on Playdate" with device connected.
